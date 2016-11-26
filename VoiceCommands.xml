@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="pt-br" Name="CommandVoiceSet">
+    <CommandPrefix> Ouça </CommandPrefix>
+    <Example> Voce pode listar exemplos aqui. </Example>
+    
+      <Command Name="ShutDownComputer">
+      <Example> Shutdown, desligue, estou indo para a cama </Example>
+      <ListenFor> Neutralize </ListenFor>
+      <Feedback> Estou preparando minha saída. </Feedback>
+      <Navigate />
+    </Command>
+  
+  </CommandSet>
+</VoiceCommands>
